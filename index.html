@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#f6ff47">
 
     <link rel="canonical" href="https://neigo.pe/">
-    <link rel="shortcut icon" href="img/logotip.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logotipo.png" type="image/x-icon">
 
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_PE">
@@ -25,8 +25,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        
-    </header>
+    <header class="header" id="header">
+        <div class="container header__inner">
+            <nav class="nav nav--left" aria-label="Navegación principal izquierda">
+                <ul class="nav__list">
+                    <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                    <li><a href="#servicios" class="nav__link">Servicios</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="header__logo" aria-label="Neigo, agencia creativa">
+                <img src="img/logo_black.png" alt="Neigo Agencia Creativa" class="header__logo-img">
+            </a>
+            <nav class="nav nav--right" aria-label="Navegación principal derecha">
+                <ul class="nav__list">
+                <li><a href="#portafolio" class="nav__link">Portafolio</a></li>
+                <li><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+</header>
+<main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <span class="eyebrow hero__eyebrow">Estrategia • Diseño • Resultados</span>
+                <h1 class="hero__title">Creamos <br> marcas que <br> trascienden</h1>
+                <p class="hero__description">
+                    Agencia de Marketing Digital, Diseño Web,<br> Branding, Social Media y SEO/SEM
+                </p>
+
+                <div class="hero__actions">
+                    <a href="#contacto" class="btn btn--primary">
+                        ¿Qué hacemos?
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                    <a href="#portafolio" class="btn btn--outline">
+                        Escríbenos
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- STATEMENT / QUOTE BANNER -->
+    <section class="statement">
+        <div class="statement__bg">
+            <div class="container statement__container">
+                
+                <div class="statement__content">
+                    <blockquote class="statement__quote">
+                        "No diseñamos por tendencia.<br>Diseñamos con intención."
+                    </blockquote>
+                    <p class="statement__subtext">Nada es casual.</p>
+                </div>
+
+                <div class="statement__badge">
+                    <img src="img/fondo.png" alt="Neigo Isotype" class="statement__badge-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>
